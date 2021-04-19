@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= "description" content="Sitio web de emprendimiento dedicado a la personalización de una amplia variedad de productos">
+    <meta name= "keywords" content="cuadernos personalizados, contacto, información, datos, formulario"> 
+    <title>Contacto - Tini Crafts</title>
+    <link rel="stylesheet" href="../../sass/css/prueba.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/jumbotron/"
+  
+
+
+    <!-- Bootstrap core CSS -->
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+  
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  
+  
+  <!-- Custom styles for this template -->
+  <link href="jumbotron.css" rel="stylesheet">
+  </head>
+
+  <body>
+    
+  <section class="containerPadre">
+    <nav class="navbar navbar-expand-md navbar fixed-top" style="background-color:rgb(226, 218, 202)">
+      <a class="navbar-brand" href="#"> <img src="../../imagenes/logosvg.svg" alt="logo" height="40" class="d-inline-block align-top"></a>
+<!-- Cambiar jpg/svg del logo. Sin el fondo blanco -->
+ 
+ 
+   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+     <ul class="navbar-nav mr-auto">
+       <li class="nav-item">
+         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+             <li class="nav-item active">
+               <a class="nav-link btn btn-outline-light" href="../../index.html">Inicio <span class="sr-only">(current)</span></a>
+               
+             </li>
+             <li class="nav-item">
+              <a class="nav-link btn btn-outline-light" href="../productos/index.html">Lista de Productos</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link btn btn-outline-light" href="../preguntasfrecuentes/index.html">Preguntas Frecuentes</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link btn btn-outline-light" href="../galeria/index.html">Galería</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link btn btn-outline-light" href="../contacto/index.html">Contacto</a>
+              </li>
+            </div>
+           </li> 
+         </ul>
+       
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+      
+  </div>
+</nav>
+</div>
+
+   
+
+        <div class="tiendaOnline">
+            <a href="http://tinicrafts.empretienda.com.ar">Tienda Online</a>
+        </div>
+
+      <!--Información personal-->
+      <div class="formulario-container"> <!-- Bloque -->
+    
+        <h2>Contacto</h2>
+   
+        <form class="formulario-container__formulario"> <!-- Bloque, elementos, modificadores -->
+        <label class="formulario-container__formulario--label" for="nombre-apellido">Nombre y Apellido:</label>
+        <input type="text" name="nombre-apellido">
+       
+        <label class="formulario-container__formulario--label" for="email">Email:</label>
+        <input type="text" name="email">
+        
+        <!--Menú desplegable-->
+        
+        <label class="formulario-container__formulario--label" for="">Provincia:</label>
+        <select name="provincia">
+            <option value="BuenosAires">Buenos Aires</option>
+            <option value="Catamarca">Catamarca</option>
+            <option value="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
+            <option value="Chaco">Chaco</option>
+            <option value="Chubut">Chubut</option>
+            <option value="Cordoba">Córdoba</option>
+            <option value="Corrientes">Corrientes</option>
+            <option value="Entre Rios">Entre Ríos</option>
+            <option value="Formosa">Formosa</option>
+            <option value="Jujuy">Jujuy</option>
+            <option value="La Pampa">La Pampa</option>
+            <option value="La Rioja">La Rioja</option>
+            <option value="Mendoza">Mendoza</option>
+            <option value="Misiones">Misiones</option>
+            <option value="Neuquen">Neuquén</option>
+            <option value="Rio Negro">Río Negro</option>
+            <option value="Salta">Salta</option>
+            <option value="San Juan">San Juan</option>
+            <option value="San Luis">San Luis</option>
+            <option value="Santa Cruz">Santa Cruz</option>
+            <option value="Santa Fe">Santa Fe</option>
+            <option value="Santiago del Estero">Santiago del Estero</option>
+            <option value="Tierra del Fuego">Tierra del Fuego</option>
+            <option value="Tucuman">Tucumán</option>
+    
+
+        </select>
+        
+      
+        <label class="formulario-container__formulario--label" for="">Comentarios:</label><br>
+        <textarea rows="5" cols=15></textarea>
+       
+
+        <!-- Botones-->
+        <input type="checkbox" name="prmociones-lanzamientos">
+        <label for="promociones-lanzamientos">Quiero recibir el Newsletter con promociones y nuevos lanzamientos a mi email</label>
+        <br> <br>
+        <input type="reset" value="Borrar formulario">
+        <br> <br>
+        <input type="submit" value="Enviar">
+    </form>
+    </div>
+
+    </section>
+
+    <hr>
+    <!-- Footer -->
+    <footer class="pie"> 
+
+        <footer class="footer mt-auto py-3">
+        
+        <div class="text-center">
+            <small>   
+                 <p>Copyright</p>
+            </small>
+        </div>
+        
+        <a href="https://www.instagram.com/tini.crafts/"><img src="../../imagenes/instagram-01.svg" alt="instagram" width="50"></a>
+        <a href="https://www.facebook.com/TiniCrafts-200822450504688/"><img src="../../imagenes/facebook-01.svg" alt="facebook" width="50"></a>
+        <a href="#"><img src="../../imagenes/mail-01.svg" alt="mail" width="50"></a>
+    
+</div>
+</footer>
+</footer>
+
+
+</section>
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+</html>

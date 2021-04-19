@@ -1,0 +1,31 @@
+$marron: rgb(189, 182, 170);
+$rosa: rgb(248, 203, 210);
+$tipografia: 'Open Sans', sans-serif;
+
+/* Títulos*/
+h2 {
+    color: $marron;
+    font-size: 20pt;
+    font-style: normal;
+    font-family:$tipografia;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+
+h3 {
+    color: $marron;
+    font-style: normal;
+    font-size: 16pt;
+    font-family: $tipografia;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    animation-name: efecto2;
+    animation-iteration-count: infinite;
+    animation-duration: 3s
+
+} 

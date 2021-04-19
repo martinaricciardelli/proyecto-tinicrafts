@@ -1,0 +1,111 @@
+$marron: rgb(226, 218, 202);
+$rosa: rgb(248, 203, 210);
+$tipografia: 'Open Sans', sans-serif;
+
+/* Menú principal*/
+
+@mixin estilos {
+    font-weight: normal;
+    font-size: 14pt;
+    font-family:$tipografia;
+}
+
+/* BEM */ /*Bloque */
+.menuPrincipal {
+    @include estilos;
+    width: 100%;
+    height: 5vh;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 20px;   
+    margin: 5px 1px 50px 1px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+/*Modificador*/
+
+.menuPrincipal__menu--nav-item {
+    margin: 5px;
+    display: block;
+    text-decoration: none;
+   
+
+}
+
+.menuPrincipal__menu--nav-item:hover {
+    background-color: white;
+    color: gray;
+}
+
+/*Elemento*/
+.menuPrincipal__menu {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+
+
+/*Tienda Online*/
+.tiendaOnline {
+    @include estilos;
+    background-color: $rosa;
+    width: 7rem;
+    color:rgb white;
+    font-style: oblique;
+    text-decoration: underline;
+    margin-top: 0px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    animation-name: efecto;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    
+    
+}
+
+/*Animación - Transform Rotate*/
+
+@keyframes efecto {
+    0% {
+        background-color: rgb(245, 186, 195) ;
+        color: white;
+    }
+
+    50% {
+        background-color:$marron ;
+        color: black;
+        transform: rotate(20deg);
+    }
+    
+    100% {
+        background-color: $rosa ;
+        color: white;
+    }
+}
+
+/* Animación - Transform: translate */
+
+@keyframes efecto2 {
+    0% {
+        transform: translateX(0);
+        
+    }
+
+    50% {
+        
+        transform: translateX(-1em);
+    }
+    
+    100% {
+        transform: translateX(0.5em);
+        
+}
+
+}
