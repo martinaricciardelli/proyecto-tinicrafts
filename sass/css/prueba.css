@@ -7,7 +7,6 @@ h2 {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 50px;
   margin-right: 20px; }
 
 h3 {
@@ -22,25 +21,6 @@ h3 {
   animation-name: efecto2;
   animation-iteration-count: infinite;
   animation-duration: 3s; }
-
-/* Menú principal*/
-/* BEM */
-/*Bloque */
-.menuPrincipal {
-  font-weight: normal;
-  font-size: 14pt;
-  font-family: "Open Sans", sans-serif;
-  width: 100%;
-  height: 5vh;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  line-height: 20px;
-  margin: 5px 1px 50px 1px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center; }
 
 /* Cuerpo de las secciones*/
 /*Inicio*/
@@ -97,12 +77,13 @@ div h2 {
 
 /* Galeria */
 /*Contacto*/
-.containerPadre {
-  margin-top: 0px; }
+div h2 {
+  margin-top: 100px; }
 
 .formulario-container {
-  display: block;
-  margin-bottom: 200px; }
+  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-left: 30rem; }
 
 .formulario-container__formulario {
   background-color: #f8cbd2;
@@ -114,7 +95,6 @@ div h2 {
   font-family: "Open Sans", sans-serif;
   padding: 10px;
   margin: 10px;
-  display: block;
   background: linear-gradient(to bottom right, #fbd5db 33%, #f5a0ad 72%); }
 
 .formulario-container__formulario--label {
@@ -176,25 +156,12 @@ h2 p {
 
 /*GRID*/
 /* Sección Contacto */
-.containerPadre {
-  display: grid;
-  grid-template-columns: 100px auto 100px;
-  grid-template-rows: 10%;
-  margin-bottom: 5px;
-  grid-gap: 1rem;
-  grid-template-areas: "tienda . . " "formulario formulario formulario" "footer footer footer"; }
-
-/*Hijos*/
-.tiendaOnline {
-  grid-area: tienda;
-  margin-left: 10px; }
-
 .formulario-container {
-  grid-area: formulario;
-  justify-self: center; }
-
-.footer {
-  grid-area: footer; }
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: minmax(100px, auto);
+  margin-bottom: 5px;
+  grid-gap: 1rem; }
 
 /* Sección Inicio */
 .containerInicio {
@@ -262,7 +229,11 @@ h2 p {
     width: 90%;
     margin-left: 100px; }
   .pie {
-    width: 90vh; } }
+    width: 90vh; }
+  /* CONTACTO */
+  .formulario-container {
+    margin-left: 0px;
+    margin-right: 500px; } }
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -293,7 +264,11 @@ h2 p {
     height: 150px; }
   /*LISTA DE PRODUCTOS */
   div h2 {
-    margin-top: 100px; } }
+    margin-top: 100px; }
+  /* CONTACTO */
+  .formulario-container {
+    margin-left: 0px;
+    margin-right: 500px; } }
 
 /* Desktop */
 @media (min-width: 992px) {

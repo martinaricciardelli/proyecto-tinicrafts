@@ -1,43 +1,18 @@
-$marron: rgb(189, 182, 170);
-$rosa: rgb(248, 203, 210);
-$tipografia: 'Open Sans', sans-serif;
 
 /*GRID*/
 
 /* Sección Contacto */
 
-.containerPadre {
+.formulario-container {
     display: grid;
-    grid-template-columns: 100px auto 100px;
-    grid-template-rows: 10%;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: minmax(100px, auto);
     margin-bottom: 5px;
     grid-gap: 1rem;
 
-    grid-template-areas: 
-    "tienda . . "
-    "formulario formulario formulario"
-    "footer footer footer"
-    ;
-}
-
-/*Hijos*/
-
-.tiendaOnline {
-    grid-area: tienda;
-    margin-left: 10px;
-}
-
-.formulario-container {
-    grid-area: formulario;
-    justify-self: center;
-}
-
-.footer {
-    grid-area: footer;
 }
 
 /* Sección Inicio */
-
 
 .containerInicio {
     display: grid;
@@ -69,6 +44,7 @@ $tipografia: 'Open Sans', sans-serif;
     grid-area: footer;
     justify-self: center;
 }
+
 
 /* Sección Productos*/ 
 .containerPrincipalProductos {
