@@ -8,14 +8,17 @@
 
 /*Inicio*/
 
-
-
 .containerInicio {
     margin-bottom: 5px;
 }
 
-.containerPrincipal {
-    margin-top: 5px;
+
+.producto-del-mes {
+    margin-top: 100px;
+}
+
+.container-texto {
+    margin-top: 50px;
 }
 
 .container-texto__cuadrado-texto--h2 {
@@ -39,6 +42,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .destacados-imagenes {

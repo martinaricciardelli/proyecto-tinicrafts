@@ -6,41 +6,19 @@ $tipografia: 'Open Sans', sans-serif;
 
 /* MOBILE */
 @media (max-width: 576px) {
-    .containerPrincipal {
+    .containerInicio{
         display: grid;
         grid-template-columns: 3fr 1fr;
         grid-template-rows: 10%;
         margin-bottom: 5px;
         grid-gap: 1rem;
-    
-        grid-template-areas: 
-        "header "
-        "menu"
-        "tienda"
-        "producto-del-mes"
-        "texto"
-        "destacados-imagenes "
-        "footer";
-    }
-    
 
+    }
     
-    .menuPrincipal {
-        width: 100%;
-        height: 10vh;
-        background-color: rgb(189, 182, 170); 
-        font-size: 24pt;
-        line-height: 40px;
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        margin-top: 0px;
-    }
-
-    .tiendaOnline {
-        margin-top: 0px;
-        font-size: 20pt;
-    }
+    .producto-del-mes {
+        margin-top: 150px;
+        }
+    
 
     h2 { 
         font-size: 28pt;
@@ -71,41 +49,13 @@ $tipografia: 'Open Sans', sans-serif;
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 991px) {
-    .containerPrincipal {
+    .containerInicio {
         display: grid;
         grid-template-columns: 3fr 1fr;
         grid-template-rows: 10%;
         margin-bottom: 5px;
         grid-gap: 1rem;
     
-        grid-template-areas: 
-        "header "
-        "menu"
-        "tienda"
-        "producto-del-mes"
-        "texto"
-        "destacados-imagenes "
-        "footer";
-    }
-    
-    header {
-        width: 500;
-    }
-    
-    .menuPrincipal {
-        width: 100%;
-        height: 15vh;
-        background-color: $marron; 
-        font-size: 24pt;
-        line-height: 40px;
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 1px;
-    }
-
-    .tiendaOnline {
-        margin-top: 1px;
-        font-size: 22pt;
     }
 
     h2 { 
@@ -148,24 +98,21 @@ $tipografia: 'Open Sans', sans-serif;
 
 
 @media (min-width: 992px) {
-   .containerPrincipal {
+   .containerInicio {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: 100%;
     margin-bottom: 5px;
     grid-gap: 1rem;
-
-    grid-template-areas: 
-
-    "tienda . . "
-    "producto-del-mes producto-del-mes producto-del-mes"
-    ". texto ."
-    "destacados-imagenes destacados-imagenes destacados-imagenes"
-    "footer footer footer" ;
 }
 
-.tiendaOnline {
-    margin-top: 90px;
+.producto-del-mes {
+    margin-top: 100px;
+}
+
+.container-texto__cuadrado-texto {
+    margin-left: 33%;
+
 }
 }
 
@@ -175,16 +122,6 @@ $tipografia: 'Open Sans', sans-serif;
     .tabla {
         width: 90%;
         margin-left: 100px;
-    }
-
-    .menuPrincipal{
-        width: 80vh;
-        height: 10vh;
-
-    }
-
-    .tiendaOnline {
-        margin-bottom: 20px;
     }
 
     .pie {
