@@ -95,6 +95,7 @@ div h2 {
   margin-top: 20px;
   background: linear-gradient(to bottom right, #fbd5db 33%, #f5a0ad 72%); }
 
+/* Galeria */
 /*Contacto*/
 .containerPadre {
   margin-top: 0px; }
@@ -103,7 +104,6 @@ div h2 {
   display: block;
   margin-bottom: 200px; }
 
-/* Elemento */
 .formulario-container__formulario {
   background-color: #f8cbd2;
   width: 600px;
