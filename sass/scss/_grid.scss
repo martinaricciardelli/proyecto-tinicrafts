@@ -82,23 +82,4 @@ $tipografia: 'Open Sans', sans-serif;
     margin-bottom: 5px;
     grid-gap: 1rem;
 
-    grid-template-areas: 
-    "tienda . . "
-    "tabla"
-    ". texto ."
-    "destacados-imagenes destacados-imagenes destacados-imagenes"
-    "footer footer footer";
-}
-
-/*Hijos*/
-
-.tiendaOnline {
-    grid-area: tienda;
-    height: 50px;
-}
-.tabla {
-    grid-area: tabla;
-}
-.pie {
-    grid-area: footer;
 }
