@@ -6,6 +6,10 @@ $tipografia: 'Open Sans', sans-serif;
 
 /* MOBILE */
 @media (max-width: 576px) {
+    h2 {
+        margin-top: 200px;
+    }
+
     /* INICIO */
     .containerInicio{
         display: grid;
@@ -61,6 +65,8 @@ $tipografia: 'Open Sans', sans-serif;
     .pie {
         width: 90vh;
     }
+
+
     
     
 }
