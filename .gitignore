@@ -1,4 +1,3 @@
-
 # Created by https://www.toptal.com/developers/gitignore/api/windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows
 
@@ -13,7 +12,11 @@ ehthumbs_vista.db
 *.stackdump
 
 # Carpeta
-node_modules/
+/node_modules
+
+#Archivos
+.package-lock.json
+.package.json
 
 # Folder config file
 [Dd]esktop.ini
