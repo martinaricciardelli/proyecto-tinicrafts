@@ -1,7 +1,7 @@
 {
-  "name": "sass",
+  "name": "tinicraft",
   "version": "1.0.0",
-  "description": "",
+  "description": "sitio web dedicado al asesoramiento y a la creación de productos personalizdos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
