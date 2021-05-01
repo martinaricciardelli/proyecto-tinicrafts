@@ -1,3 +1,6 @@
+$rosa:#fcb2bd;
+$tipografia: 'Open Sans', sans-serif;
+
 @mixin estilos {
     font-weight: normal;
     font-size: 14pt;
@@ -26,7 +29,7 @@
 }
 
 .container-texto__cuadrado-texto {
-    background-color: $rosa;
+    background-color:$rosa;
     width: 500px;
     height: 40vh;
     color:white;
@@ -34,7 +37,7 @@
     font-family: $tipografia;
     text-align: center;
     margin: 5px;
-    background: linear-gradient(to bottom right, #fbd5db 33%, #f5a0ad 72%);
+
 }
 
 .destacados-container {
@@ -60,7 +63,7 @@ div {
 
 .tabla {
     @include estilos; 
-    background-color: $rosa;
+    background-color:$rosa;
     width: 80%;
     color: white;
     line-height: 20px;
@@ -68,8 +71,9 @@ div {
     padding: 5px;
     margin-left: 150px;
     margin-top: 20px;
-    background: linear-gradient(to bottom right, #fbd5db 33%, #f5a0ad 72%);
+    line-height: 30px;
     
+
 }
 
 /* Galeria */
@@ -98,7 +102,7 @@ div {
     font-family: $tipografia;
     padding: 10px;
     margin: 10px;
-    background: linear-gradient(to bottom right, #fbd5db 33%, #f5a0ad 72%);
+
 }
 
 
@@ -138,9 +142,7 @@ h2  {
 
 }
 
-/* Elemento */
-
-.preguntas-container__preguntasFrecuentes {
+.preguntas-container__preguntasFrecuentes { /* Elemento */
      color: rgb(236, 140, 156);
      font-size: 14pt;
      font-family: $tipografia;
@@ -166,4 +168,32 @@ h2  {
 
 .logo1 {
     margin-left: 600px;
+}
+
+/* ERROR 404*/
+
+.container-error {
+    background-image: url(../../imagenes/error2.jpg) ;
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.texto-error {
+    background-color: #dbd4c6;
+    width: 600px;
+    height: 300px;  
+    border: white solid;
+    margin-left: 20% ;
+    margin-top: 15%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.error404 {
+    text-transform: uppercase;
+    font-size: 22pt;
 }

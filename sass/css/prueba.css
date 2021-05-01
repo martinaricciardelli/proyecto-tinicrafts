@@ -38,15 +38,14 @@ h3 {
   justify-content: center; }
 
 .container-texto__cuadrado-texto {
-  background-color: #f8cbd2;
+  background-color: #fcb2bd;
   width: 500px;
   height: 40vh;
   color: white;
   font-size: 18pt;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  margin: 5px;
-  background: linear-gradient(to bottom right, #fbd5db 33%, #f5a0ad 72%); }
+  margin: 5px; }
 
 .destacados-container {
   display: flex;
@@ -65,7 +64,7 @@ div h2 {
   font-weight: normal;
   font-size: 14pt;
   font-family: "Open Sans", sans-serif;
-  background-color: #f8cbd2;
+  background-color: #fcb2bd;
   width: 80%;
   color: white;
   line-height: 20px;
@@ -73,7 +72,7 @@ div h2 {
   padding: 5px;
   margin-left: 150px;
   margin-top: 20px;
-  background: linear-gradient(to bottom right, #fbd5db 33%, #f5a0ad 72%); }
+  line-height: 30px; }
 
 /* Galeria */
 /*Contacto*/
@@ -86,7 +85,7 @@ div h2 {
   margin-left: 30rem; }
 
 .formulario-container__formulario {
-  background-color: #f8cbd2;
+  background-color: #fcb2bd;
   width: 600px;
   height: 650px;
   color: white;
@@ -94,8 +93,7 @@ div h2 {
   font-size: 14pt;
   font-family: "Open Sans", sans-serif;
   padding: 10px;
-  margin: 10px;
-  background: linear-gradient(to bottom right, #fbd5db 33%, #f5a0ad 72%); }
+  margin: 10px; }
 
 .formulario-container__formulario--label {
   display: block;
@@ -120,8 +118,8 @@ h2 p {
   display: flex;
   justify-content: center; }
 
-/* Elemento */
 .preguntas-container__preguntasFrecuentes {
+  /* Elemento */
   color: #ec8c9c;
   font-size: 14pt;
   font-family: "Open Sans", sans-serif;
@@ -140,6 +138,30 @@ h2 p {
 
 .logo1 {
   margin-left: 600px; }
+
+/* ERROR 404*/
+.container-error {
+  background-image: url(../../imagenes/error2.jpg);
+  width: 100%;
+  height: 700px;
+  display: flex; }
+
+.texto-error {
+  background-color: #dbd4c6;
+  width: 600px;
+  height: 300px;
+  border: white solid;
+  margin-left: 20%;
+  margin-top: 15%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18pt;
+  font-weight: bold;
+  color: white;
+  text-align: center; }
+
+.error404 {
+  text-transform: uppercase;
+  font-size: 22pt; }
 
 /*Footer*/
 .pie {
