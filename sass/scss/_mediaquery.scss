@@ -6,11 +6,26 @@ $tipografia: 'Open Sans', sans-serif;
 
 /* MOBILE */
 @media (max-width: 576px) {
-    h2 {
-        margin-top: 200px;
-    }
-
     /* INICIO */
+    .producto-del-mes{
+        .container {
+            h2 {
+                margin-left: 25px;
+            }
+        }
+    }
+    .container-texto__container--titulo {
+        margin-top: 100px;
+        text-align: center;
+        margin-left: 150px; 
+        font-size: 24pt;
+    }
+    #carouselExampleIndicators {
+        margin-right: 200px;
+        margin-left: 0%;
+        width: 300px;
+    }
+    
     .containerInicio{
         display: grid;
         grid-template-columns: 3fr 1fr;
@@ -22,19 +37,19 @@ $tipografia: 'Open Sans', sans-serif;
     
     .producto-del-mes {
         margin-top: 150px;
+        margin-left: 130px;
         }
     
 
-    h2 { 
-        font-size: 28pt;
-    }
-
     .container-texto {
-        margin-top: 100px;
+        margin-top: 10px;
+        margin-left: 25px;
     }
 
-    .cuadrado-texto {
-        width: 700px;    
+    .container-texto__cuadrado-texto {
+        width: 500px;
+        height: 270px;    
+        font-size: 16pt;
     }
 
   div {
@@ -43,10 +58,17 @@ $tipografia: 'Open Sans', sans-serif;
     }
     }
 
+    .destacados-container {
+        margin-left: 200px;
+
+    }
+
+
+
     .pie {
         font-size: 18pt;
         width: 100%;
-        height: 150px ;
+        height: 120px ;
         margin-bottom: 0pt;
     }
 
@@ -102,23 +124,40 @@ $tipografia: 'Open Sans', sans-serif;
     
     }
 
-    h2 { 
-        font-size: 30pt;
+    .producto-del-mes{
+        .container {
+            h2 {
+                margin-left: 25px;
+                font-size: 30pt;
+            }
+        }
+    } 
+
+    .producto-del-mes {
+        margin-left: 200px;
     }
 
     .container-texto {
         margin-top: 100px;
+        margin-left: 150px;
     }
 
-    .cuadrado-texto {
+    .container-texto__cuadrado-texto {
         width: 700px;
+        height: 400px;
         font-size: 24pt;
     
 }
+
+    .container-texto__container--titulo {
+        font-size: 28pt;
+        margin-left: 40px;
+    }
     .destacados-container {
         display: flex;
         flex-wrap: wrap;
         margin-top: 50px;
+        margin-left: 200px;
     }
     
 
@@ -132,7 +171,7 @@ $tipografia: 'Open Sans', sans-serif;
         font-size: 20pt;
         text-align: center;
         width: 100vh;
-        height: 150px ;
+        height: 120px ;
     
     }
 

@@ -220,9 +220,18 @@ h2 p {
 /* RESPONSIVE */
 /* MOBILE */
 @media (max-width: 576px) {
-  h2 {
-    margin-top: 200px; }
   /* INICIO */
+  .producto-del-mes .container h2 {
+    margin-left: 25px; }
+  .container-texto__container--titulo {
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 150px;
+    font-size: 24pt; }
+  #carouselExampleIndicators {
+    margin-right: 200px;
+    margin-left: 0%;
+    width: 300px; }
   .containerInicio {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -230,19 +239,23 @@ h2 p {
     margin-bottom: 5px;
     grid-gap: 1rem; }
   .producto-del-mes {
-    margin-top: 150px; }
-  h2 {
-    font-size: 28pt; }
+    margin-top: 150px;
+    margin-left: 130px; }
   .container-texto {
-    margin-top: 100px; }
-  .cuadrado-texto {
-    width: 700px; }
+    margin-top: 10px;
+    margin-left: 25px; }
+  .container-texto__cuadrado-texto {
+    width: 500px;
+    height: 270px;
+    font-size: 16pt; }
   div h3 {
     font-size: 24pt; }
+  .destacados-container {
+    margin-left: 200px; }
   .pie {
     font-size: 18pt;
     width: 100%;
-    height: 150px;
+    height: 120px;
     margin-bottom: 0pt; }
   /* LISTA DE PRODUCTOS */
   div h2 {
@@ -278,24 +291,33 @@ h2 p {
     grid-template-rows: 10%;
     margin-bottom: 5px;
     grid-gap: 1rem; }
-  h2 {
+  .producto-del-mes .container h2 {
+    margin-left: 25px;
     font-size: 30pt; }
+  .producto-del-mes {
+    margin-left: 200px; }
   .container-texto {
-    margin-top: 100px; }
-  .cuadrado-texto {
+    margin-top: 100px;
+    margin-left: 150px; }
+  .container-texto__cuadrado-texto {
     width: 700px;
+    height: 400px;
     font-size: 24pt; }
+  .container-texto__container--titulo {
+    font-size: 28pt;
+    margin-left: 40px; }
   .destacados-container {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px; }
+    margin-top: 50px;
+    margin-left: 200px; }
   div h3 {
     font-size: 24pt; }
   .pie {
     font-size: 20pt;
     text-align: center;
     width: 100vh;
-    height: 150px; }
+    height: 120px; }
   /*LISTA DE PRODUCTOS */
   div h2 {
     margin-top: 100px; }
