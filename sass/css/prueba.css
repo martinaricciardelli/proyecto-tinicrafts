@@ -259,10 +259,12 @@ h2 p {
     margin-bottom: 0pt; }
   /* LISTA DE PRODUCTOS */
   div h2 {
-    margin-top: 120px; }
+    margin-top: 120px;
+    margin-left: 170px; }
   .tabla {
-    width: 90%;
-    margin-left: 100px; }
+    width: 100%;
+    margin-left: 120px;
+    font-size: 12pt; }
   .pie {
     width: 90vh; }
   /* CONTACTO */
@@ -320,7 +322,12 @@ h2 p {
     height: 120px; }
   /*LISTA DE PRODUCTOS */
   div h2 {
-    margin-top: 100px; }
+    margin-top: 100px;
+    margin-left: 230px;
+    font-size: 30pt; }
+  .tabla {
+    width: 100%;
+    margin-left: 120px; }
   /* CONTACTO */
   .formulario-container {
     margin-left: 0px;
