@@ -255,7 +255,19 @@ h2 p {
   /* CONTACTO */
   .formulario-container {
     margin-left: 0px;
-    margin-right: 500px; } }
+    margin-right: 500px; }
+  /* ERROR 404 */
+  .container-error {
+    background-image: url(../../imagenes/error2.jpg);
+    width: 100%;
+    height: 600px; }
+  .texto-error {
+    width: 2000px;
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 80px;
+    margin-top: 150px;
+    font-size: 8pt; } }
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -290,7 +302,17 @@ h2 p {
   /* CONTACTO */
   .formulario-container {
     margin-left: 0px;
-    margin-right: 500px; } }
+    margin-right: 500px; }
+  /*ERROR 404*/
+  .container-error {
+    background-image: url(../../imagenes/error2.jpg);
+    width: 100%;
+    height: 1000px; }
+  .texto-error {
+    width: 100%;
+    height: 350px;
+    margin-right: 250px;
+    margin-top: 250px; } }
 
 /* Desktop */
 @media (min-width: 992px) {
@@ -307,4 +329,7 @@ h2 p {
     margin-left: 33%; }
   /* PRODUCTOS */
   .containerPrincipalProductos {
-    margin-top: 50px; } }
+    margin-top: 50px; }
+  /* ERROR 404 */
+  .texto-error {
+    margin-left: 350px; } }

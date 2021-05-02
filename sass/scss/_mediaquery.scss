@@ -73,7 +73,20 @@ $tipografia: 'Open Sans', sans-serif;
         margin-right: 500px;
     }
 
-    
+    /* ERROR 404 */
+    .container-error {
+        background-image: url(../../imagenes/error2.jpg);
+        width: 100%;
+        height: 600px;
+    }
+    .texto-error {
+        width: 2000px;
+        height: 200px;
+        margin-left: 0px;
+        margin-right: 80px;
+        margin-top: 150px;
+        font-size: 8pt;
+    }
     
 }
 
@@ -136,6 +149,19 @@ $tipografia: 'Open Sans', sans-serif;
         margin-right: 500px;
 }
 
+    /*ERROR 404*/
+    .container-error {
+        background-image: url(../../imagenes/error2.jpg);
+        width: 100%;
+        height: 1000px;
+    }
+    .texto-error {
+        width: 100%;
+        height: 350px;
+        margin-right: 250px;
+        margin-top: 250px;
+    }
+
 }
 
 /* Desktop */ 
@@ -167,7 +193,10 @@ $tipografia: 'Open Sans', sans-serif;
     margin-top: 50px;
 }
 
-
+/* ERROR 404 */
+.texto-error {
+    margin-left: 350px;
+}
 
 
 }
