@@ -158,10 +158,15 @@ h2  {
 
  .preguntas-container__preguntasFrecuentes--pregunta {
      font-style: italic;
+     text-decoration: none;
+     margin-bottom: 5px;
  }
 
  .preguntas-container__preguntasFrecuentes--respuesta {
      font-style:normal;
+     list-style: none;
+     text-decoration: none;
+     margin-bottom: 15px;
  }
 
 

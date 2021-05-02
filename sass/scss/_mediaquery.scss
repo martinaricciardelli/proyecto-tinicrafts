@@ -90,6 +90,26 @@ $tipografia: 'Open Sans', sans-serif;
         width: 90vh;
     }
 
+    /* PREGUNTAS FRECUENTES */
+    .faq-titulo {
+        margin-top: 120px;
+        margin-left: 180px;
+    }
+
+    .preguntas-container {
+        margin-left: 100px;
+        width: 100%;
+    }
+
+    .preguntas-container__preguntasFrecuentes--pregunta {
+        margin-bottom: 5px;
+    }
+
+    .preguntas-container__preguntasFrecuentes--respuesta {
+        margin-bottom: 15px;
+
+    }
+
     /* CONTACTO */
 
     .formulario-container {
@@ -189,9 +209,31 @@ $tipografia: 'Open Sans', sans-serif;
 
     .tabla {
         width: 100%;
-        
         margin-left: 120px;
     }
+
+    /*PREGUNTAS FRECUENTES */
+    .faq-titulo {
+        margin-left: 250px;
+        font-size: 26pt;
+    }
+
+    .preguntas-container {
+        margin-left: 170px;
+        width: 100%;
+    }
+
+    .preguntas-container__preguntasFrecuentes--pregunta {
+        margin-bottom: 10px;
+        font-size: 20pt;
+    }
+
+    .preguntas-container__preguntasFrecuentes--respuesta {
+        margin-bottom: 20px;
+        font-size: 20pt;
+
+    }
+
 
     /* CONTACTO */
     .formulario-container {
