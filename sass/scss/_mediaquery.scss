@@ -63,8 +63,6 @@ $tipografia: 'Open Sans', sans-serif;
 
     }
 
-
-
     .pie {
         font-size: 18pt;
         width: 100%;
@@ -111,10 +109,18 @@ $tipografia: 'Open Sans', sans-serif;
     }
 
     /* CONTACTO */
+    .contacto-titulo {
+        margin-top: 120px;
+    }
 
     .formulario-container {
-        margin-left: 0px;
+        margin-left: 20px;
         margin-right: 500px;
+        margin-top: 20px;
+    }
+
+    .formulario-container__formulario {
+        width: 130%;
     }
 
     /* ERROR 404 */
@@ -237,9 +243,11 @@ $tipografia: 'Open Sans', sans-serif;
 
     /* CONTACTO */
     .formulario-container {
-        margin-left: 0px;
-        margin-right: 500px;
-}
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+
+
 
     /*ERROR 404*/
     .container-error {
@@ -284,6 +292,12 @@ $tipografia: 'Open Sans', sans-serif;
 .containerPrincipalProductos {
     margin-top: 50px;
 }
+
+.productos-titulo {
+    margin-top: 50px;
+
+}
+
 
 /* ERROR 404 */
 .texto-error {

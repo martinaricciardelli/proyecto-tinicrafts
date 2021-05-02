@@ -74,9 +74,8 @@ div h2 {
   margin-top: 20px;
   line-height: 30px; }
 
-/* Galeria */
 /*Contacto*/
-div h2 {
+.contacto-titulo {
   margin-top: 100px; }
 
 .formulario-container {
@@ -140,9 +139,6 @@ h2 p {
   list-style: none;
   text-decoration: none;
   margin-bottom: 15px; }
-
-.logo1 {
-  margin-left: 600px; }
 
 /* ERROR 404*/
 .container-error {
@@ -284,9 +280,14 @@ h2 p {
   .preguntas-container__preguntasFrecuentes--respuesta {
     margin-bottom: 15px; }
   /* CONTACTO */
+  .contacto-titulo {
+    margin-top: 120px; }
   .formulario-container {
-    margin-left: 0px;
-    margin-right: 500px; }
+    margin-left: 20px;
+    margin-right: 500px;
+    margin-top: 20px; }
+  .formulario-container__formulario {
+    width: 130%; }
   /* ERROR 404 */
   .container-error {
     background-image: url(../../imagenes/error2.jpg);
@@ -359,8 +360,8 @@ h2 p {
     font-size: 20pt; }
   /* CONTACTO */
   .formulario-container {
-    margin-left: 0px;
-    margin-right: 500px; }
+    margin-left: 200px;
+    margin-top: 20px; }
   /*ERROR 404*/
   .container-error {
     background-image: url(../../imagenes/error2.jpg);
@@ -387,6 +388,8 @@ h2 p {
     margin-left: 33%; }
   /* PRODUCTOS */
   .containerPrincipalProductos {
+    margin-top: 50px; }
+  .productos-titulo {
     margin-top: 50px; }
   /* ERROR 404 */
   .texto-error {
