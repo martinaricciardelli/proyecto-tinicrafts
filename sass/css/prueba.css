@@ -103,7 +103,10 @@ div h2 {
 
 /*Galeria*/
 .containerPrincipalGaleria {
-  margin-top: 90px; }
+  margin-top: 50px; }
+
+.galeria-titulo {
+  margin-top: 100px; }
 
 h2 p {
   margin: 20px;
@@ -288,6 +291,10 @@ h2 p {
     margin-top: 20px; }
   .formulario-container__formulario {
     width: 130%; }
+  /* GALERIA */
+  .galeria-titulo {
+    margin-top: 150px;
+    margin-left: 225px; }
   /* ERROR 404 */
   .container-error {
     background-image: url(../../imagenes/error2.jpg);
