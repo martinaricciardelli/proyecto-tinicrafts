@@ -42,17 +42,18 @@
     </head>
   
 <body>
-
-
-    <div class="containerInicio">
-        <!-- Header Logo -->
-       <nav class="navbar navbar-expand-md navbar fixed-top" style="background-color:rgb(226, 218, 202)">
+  <div class="container-Inicio">
+    <!-- Header Logo -->
+      <nav class="navbar navbar-expand-md navbar fixed-top" style="background-color:rgb(226, 218, 202)">
         <a class="navbar-brand" href="#"> <img src="imagenes/logosvg.svg" height="40" class="d-inline-block align-top"></a>
+        <button class="navbar-toggler collapsed bg-light" class="btn btn-outline-light" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+
           <!-- Menu -->
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <div class="collapse navbar-collapse show" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <li class="nav-item active">
                     <a class="nav-link btn btn-outline-light" href="index.html">Inicio <span class="sr-only">(current)</span></a>
                   </li>
@@ -73,29 +74,25 @@
                   <li class="nav-item">
                     <a class="nav-link btn btn-outline-light" href="secciones/contacto/index.html">Contacto</a>
                   </li>
-                </div>
-               </li> 
-             </ul>
+                
+            </ul>
            
-                <form class="form-inline">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
-          
-       </div> 
-    
+              </form>        
+         </div>    
       </nav>
- 
+    
       </div>
-            
 
      <!-- Producto del Mes-->
     <div class="producto-del-mes">
       <div class="container">
     
-        <h2>
+        <h1 class="lanzamientos-titulo">
             <strong> Lanzamientos del mes </strong>
-        </h2>
+        </h1>
   
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -122,37 +119,37 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
-          </div>
-      </div>
-    
-        
+        </div>
+      </div>    
     </div>
         
      <!-- Texto-->
 
     <div class="container-texto"> <!-- Bloque -->
         <div class="container-texto__container"> <!-- Bloque, elementos, modificadores-->
-            <h2 class="container-texto__container--titulo">
-                 <strong>About</strong>
-             </h2>
+          <h2 class="container-texto__container--titulo">
+              <strong>About</strong>
+          </h2>
 
           <div class="container-texto__cuadrado-texto">
             <div class="container-texto__cuadrado-texto--texto">
-                <div class="container"> 
-                  <p>Tini Crafts es un emprendimiento focalizado en el asesoramiento y en la creación de productos personalizdos.</p> 
-                  <p>Sea para regalar o autoregalarse, Tini Crafts ofrece una amplia variedad de productos para su trabajo, estudio u hogar.</p> 
-                  <p>¡Bienvenidx!</p>
-                </div>
+              <div class="container"> 
+                <p>Tini Crafts es un emprendimiento focalizado en el asesoramiento y en la creación de productos personalizdos.</p> 
+                <p>Sea para regalar o autoregalarse, Tini Crafts ofrece una amplia variedad de productos para su trabajo, estudio u hogar.</p> 
+                <p>¡Bienvenidx!</p>
+              </div>
             </div>
+          </div>
         </div>
-      </div>
     </div>
     
     <!-- Productos Destacados-->
+    <h3 class="destacados-titulo">
+      <strong>Productos destacados</strong>
+    </h3>
+
     <div class="destacados-container">
-        <h3>
-            <strong>Productos destacados</strong>
-        </h3>
+        
         <div class="text-center">
         <div class="destacados-imagenes">
           <div class="container">
@@ -172,12 +169,11 @@
             </div>
           </div>  
         </div>
-      
-      </div>
-  </div>
-  </div>
+        </div>
+    </div>
 
   
+
   <hr>
         
   <!-- Footer -->
@@ -193,7 +189,7 @@
         
            <a href="https://www.instagram.com/tini.crafts/"><img src="imagenes/instagram-01.svg" alt="instagram" width="45"></a>
            <a href="https://www.facebook.com/TiniCrafts-200822450504688/"><img src="imagenes/facebook-01.svg" alt="facebook" width="45"></a>
-           <a href="secciones/error404/index.html"><img src="imagenes/mail-01.svg" alt="mail" width="45"></a>
+           <a href="404.html"><img src="imagenes/mail-01.svg" alt="mail" width="45"></a>
            <a href="https://tinicrafts.empretienda.com.ar/"><img src="imagenes/tienda-01.svg" alt="tienda" width="45"> </a>
            
         </footer>

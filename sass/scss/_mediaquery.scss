@@ -7,13 +7,12 @@ $tipografia: 'Open Sans', sans-serif;
 /* MOBILE */
 @media (max-width: 576px) {
     /* INICIO */
-    .producto-del-mes{
-        .container {
-            h2 {
-                margin-left: 25px;
-            }
-        }
+    .lanzamientos-titulos {
+        margin-left: 10px;
+        text-align: center;
+        font-size: 26pt;
     }
+
     .container-texto__container--titulo {
         margin-top: 100px;
         text-align: center;
@@ -26,7 +25,7 @@ $tipografia: 'Open Sans', sans-serif;
         width: 300px;
     }
     
-    .containerInicio{
+    .containerInicio {
         display: grid;
         grid-template-columns: 3fr 1fr;
         grid-template-rows: 10%;
@@ -52,11 +51,11 @@ $tipografia: 'Open Sans', sans-serif;
         font-size: 16pt;
     }
 
-  div {
-      h3 {
-      font-size: 24pt;
+    .destacados-titulo {
+        font-size: 20pt;
+        margin-left: 200px;
     }
-    }
+    
 
     .destacados-container {
         margin-left: 200px;
@@ -71,12 +70,11 @@ $tipografia: 'Open Sans', sans-serif;
     }
 
     /* LISTA DE PRODUCTOS */ 
-    div {
-        h2{
+   .productos-titulo{
             margin-top: 120px;
             margin-left: 170px;
+            font-size: 22pt;
         }
-    }
 
     .tabla {
         width: 100%;
@@ -92,6 +90,7 @@ $tipografia: 'Open Sans', sans-serif;
     .faq-titulo {
         margin-top: 120px;
         margin-left: 180px;
+        font-size: 20pt;
     }
 
     .preguntas-container {
@@ -111,6 +110,7 @@ $tipografia: 'Open Sans', sans-serif;
     /* CONTACTO */
     .contacto-titulo {
         margin-top: 120px;
+        margin-left: 170px;
     }
 
     .formulario-container {
@@ -126,9 +126,21 @@ $tipografia: 'Open Sans', sans-serif;
     /* GALERIA */
     .galeria-titulo {
         margin-top: 150px;
+        margin-bottom: 10px;
         margin-left: 225px;
     }
-
+    
+    .containerPrincipalGaleria {
+        margin-top: 10px;
+        margin-right: 1px;
+        margin-left: 30%;
+        width: 100%;
+        
+    }
+    .my-3 py-3 {
+        width: 100%;
+    }
+   
 
 
     /* ERROR 404 */
@@ -160,14 +172,11 @@ $tipografia: 'Open Sans', sans-serif;
     
     }
 
-    .producto-del-mes{
-        .container {
-            h2 {
-                margin-left: 25px;
-                font-size: 30pt;
-            }
-        }
-    } 
+    .lanzamientos-titulos {
+        margin-left: 25px;
+        font-size: 30pt;
+    }
+ 
 
     .producto-del-mes {
         margin-left: 200px;
@@ -197,10 +206,9 @@ $tipografia: 'Open Sans', sans-serif;
     }
     
 
-  div {
-      h3 {
+    .destacados-titulo {
       font-size: 24pt;
-    }
+      margin-left: 200px;
     }
 
     .pie {
@@ -208,19 +216,16 @@ $tipografia: 'Open Sans', sans-serif;
         text-align: center;
         width: 100vh;
         height: 120px ;
-        
     
     }
 
     /*LISTA DE PRODUCTOS */
-    div {
-        h2{
+    .productos-titulo {
             margin-top: 100px;
             margin-left: 230px;
             font-size: 30pt;
         }
-    }
-
+    
     .tabla {
         width: 100%;
         margin-left: 120px;
@@ -228,7 +233,7 @@ $tipografia: 'Open Sans', sans-serif;
 
     /*PREGUNTAS FRECUENTES */
     .faq-titulo {
-        margin-left: 250px;
+        margin-left: 500px;
         font-size: 26pt;
     }
 
@@ -250,10 +255,38 @@ $tipografia: 'Open Sans', sans-serif;
 
 
     /* CONTACTO */
+    .contacto-titulo {
+        margin-left: 250px;
+    }
     .formulario-container {
         margin-left: 200px;
         margin-top: 20px;
     }
+
+    /* GALERIA */
+    .galeria-titulo {
+        margin-left: 270px;
+        margin-bottom: 0px;
+        font-size: 30pt;
+    }
+    .containerPrincipalGaleria {
+        margin-top: 0px;
+        margin-left: 120px;
+        width: 100%;
+    }
+
+    .containerPrincipalGaleria{
+        .container {
+            margin-top: 0px;
+        }
+    }
+    
+    .my-3 p-3 {
+        width: 100%;
+
+    }
+
+
 
 
     /*ERROR 404*/

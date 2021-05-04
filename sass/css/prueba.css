@@ -1,12 +1,20 @@
 @charset "UTF-8";
 /* Títulos*/
-h2 {
+h1 {
   color: #bdb6aa;
   font-size: 20pt;
   font-style: normal;
   font-family: "Open Sans", sans-serif;
   text-align: center;
   text-transform: uppercase;
+  margin-right: 20px; }
+
+h2 {
+  color: #bdb6aa;
+  font-size: 20pt;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
   margin-right: 20px; }
 
 h3 {
@@ -16,25 +24,41 @@ h3 {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   text-transform: capitalize;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 100px;
+  margin-bottom: 15px; }
+
+.destacados-titulo {
+  color: #bdb6aa;
+  font-style: normal;
+  font-size: 16pt;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 100px;
+  margin-bottom: 15px;
   animation-name: efecto2;
   animation-iteration-count: infinite;
   animation-duration: 3s; }
 
+/* Animación - Transform: translate */
+@keyframes efecto2 {
+  0% {
+    transform: translateX(0); }
+  50% {
+    transform: translateX(-1em); }
+  100% {
+    transform: translateX(0.5em); } }
+
 /* Cuerpo de las secciones*/
 /*Inicio*/
-.containerInicio {
-  margin-bottom: 5px; }
-
 .producto-del-mes {
   margin-top: 100px; }
 
 .container-texto {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .container-texto__cuadrado-texto--h2 {
-  display: flex;
   justify-content: center; }
 
 .container-texto__cuadrado-texto {
@@ -51,14 +75,15 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 50px; }
+  margin-top: 30px; }
 
 .destacados-imagenes {
   margin: 10px; }
 
 /*Productos*/
-div h2 {
-  margin-top: 50px; }
+.productos-titulo {
+  margin-top: 50px;
+  font-size: 26pt; }
 
 .tabla {
   font-weight: normal;
@@ -76,11 +101,13 @@ div h2 {
 
 /*Contacto*/
 .contacto-titulo {
-  margin-top: 100px; }
+  margin-top: 100px;
+  margin-left: 100px;
+  font-size: 26pt; }
 
 .formulario-container {
   margin-bottom: 10px;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 30rem; }
 
 .formulario-container__formulario {
@@ -106,13 +133,17 @@ div h2 {
   margin-top: 50px; }
 
 .galeria-titulo {
-  margin-top: 100px; }
+  margin-top: 100px;
+  font-size: 26pt; }
 
 h2 p {
   margin: 20px;
   padding: 20px; }
 
 /*Preguntas Frecuentes*/
+.faq-titulo {
+  font-size: 26pt; }
+
 .containerPrincipalPreguntas {
   margin-top: 100px; }
 
@@ -225,8 +256,10 @@ h2 p {
 /* MOBILE */
 @media (max-width: 576px) {
   /* INICIO */
-  .producto-del-mes .container h2 {
-    margin-left: 25px; }
+  .lanzamientos-titulos {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 26pt; }
   .container-texto__container--titulo {
     margin-top: 100px;
     text-align: center;
@@ -252,8 +285,9 @@ h2 p {
     width: 500px;
     height: 270px;
     font-size: 16pt; }
-  div h3 {
-    font-size: 24pt; }
+  .destacados-titulo {
+    font-size: 20pt;
+    margin-left: 200px; }
   .destacados-container {
     margin-left: 200px; }
   .pie {
@@ -262,9 +296,10 @@ h2 p {
     height: 120px;
     margin-bottom: 0pt; }
   /* LISTA DE PRODUCTOS */
-  div h2 {
+  .productos-titulo {
     margin-top: 120px;
-    margin-left: 170px; }
+    margin-left: 170px;
+    font-size: 22pt; }
   .tabla {
     width: 100%;
     margin-left: 120px;
@@ -274,7 +309,8 @@ h2 p {
   /* PREGUNTAS FRECUENTES */
   .faq-titulo {
     margin-top: 120px;
-    margin-left: 180px; }
+    margin-left: 180px;
+    font-size: 20pt; }
   .preguntas-container {
     margin-left: 100px;
     width: 100%; }
@@ -284,7 +320,8 @@ h2 p {
     margin-bottom: 15px; }
   /* CONTACTO */
   .contacto-titulo {
-    margin-top: 120px; }
+    margin-top: 120px;
+    margin-left: 170px; }
   .formulario-container {
     margin-left: 20px;
     margin-right: 500px;
@@ -294,7 +331,15 @@ h2 p {
   /* GALERIA */
   .galeria-titulo {
     margin-top: 150px;
+    margin-bottom: 10px;
     margin-left: 225px; }
+  .containerPrincipalGaleria {
+    margin-top: 10px;
+    margin-right: 1px;
+    margin-left: 30%;
+    width: 100%; }
+  .my-3 py-3 {
+    width: 100%; }
   /* ERROR 404 */
   .container-error {
     background-image: url(../../imagenes/error2.jpg);
@@ -317,7 +362,7 @@ h2 p {
     grid-template-rows: 10%;
     margin-bottom: 5px;
     grid-gap: 1rem; }
-  .producto-del-mes .container h2 {
+  .lanzamientos-titulos {
     margin-left: 25px;
     font-size: 30pt; }
   .producto-del-mes {
@@ -337,15 +382,16 @@ h2 p {
     flex-wrap: wrap;
     margin-top: 50px;
     margin-left: 200px; }
-  div h3 {
-    font-size: 24pt; }
+  .destacados-titulo {
+    font-size: 24pt;
+    margin-left: 200px; }
   .pie {
     font-size: 20pt;
     text-align: center;
     width: 100vh;
     height: 120px; }
   /*LISTA DE PRODUCTOS */
-  div h2 {
+  .productos-titulo {
     margin-top: 100px;
     margin-left: 230px;
     font-size: 30pt; }
@@ -354,7 +400,7 @@ h2 p {
     margin-left: 120px; }
   /*PREGUNTAS FRECUENTES */
   .faq-titulo {
-    margin-left: 250px;
+    margin-left: 500px;
     font-size: 26pt; }
   .preguntas-container {
     margin-left: 170px;
@@ -366,9 +412,24 @@ h2 p {
     margin-bottom: 20px;
     font-size: 20pt; }
   /* CONTACTO */
+  .contacto-titulo {
+    margin-left: 250px; }
   .formulario-container {
     margin-left: 200px;
     margin-top: 20px; }
+  /* GALERIA */
+  .galeria-titulo {
+    margin-left: 270px;
+    margin-bottom: 0px;
+    font-size: 30pt; }
+  .containerPrincipalGaleria {
+    margin-top: 0px;
+    margin-left: 120px;
+    width: 100%; }
+  .containerPrincipalGaleria .container {
+    margin-top: 0px; }
+  .my-3 p-3 {
+    width: 100%; }
   /*ERROR 404*/
   .container-error {
     background-image: url(../../imagenes/error2.jpg);
