@@ -10,6 +10,18 @@ $tipografia: 'Open Sans', sans-serif;
 /* Cuerpo de las secciones*/
 
 /*Inicio*/
+body {
+    background-image: url(../../imagenes/fondo-01.svg);
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.lanzamientos-titulo {
+    font-weight: bold;
+}
 
 .producto-del-mes {
     margin-top: 100px;
@@ -28,7 +40,7 @@ $tipografia: 'Open Sans', sans-serif;
 .container-texto__cuadrado-texto {
     background-color:$rosa;
     width: 500px;
-    height: 40vh;
+    height: 45vh;
     color:white;
     font-size: 18pt;
     font-family: $tipografia;
@@ -54,6 +66,7 @@ $tipografia: 'Open Sans', sans-serif;
 .productos-titulo {
     margin-top: 50px;
     font-size: 26pt;
+    font-weight: bold;
     }
 
 
@@ -77,7 +90,8 @@ $tipografia: 'Open Sans', sans-serif;
 .contacto-titulo {
      margin-top: 100px;
      margin-left: 100px;
-    font-size: 26pt;
+     font-size: 26pt;
+     font-weight: bold;
 }
 
 .formulario-container {
@@ -118,6 +132,7 @@ $tipografia: 'Open Sans', sans-serif;
 .galeria-titulo {
     margin-top: 100px;
     font-size: 26pt;
+    font-weight: bold;
 }
 
 
@@ -132,6 +147,7 @@ h2  {
 
 .faq-titulo {
     font-size: 26pt;
+    font-weight: bold;
 }
 
 .containerPrincipalPreguntas {
