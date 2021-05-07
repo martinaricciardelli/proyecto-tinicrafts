@@ -1,54 +1,4 @@
 @charset "UTF-8";
-/* Títulos*/
-h1 {
-  color: #bdb6aa;
-  font-size: 20pt;
-  font-style: normal;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-  margin-right: 20px; }
-
-h2 {
-  color: #bdb6aa;
-  font-size: 20pt;
-  font-style: normal;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  margin-right: 20px; }
-
-h3 {
-  color: #bdb6aa;
-  font-style: normal;
-  font-size: 16pt;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  text-transform: capitalize;
-  margin-top: 100px;
-  margin-bottom: 15px; }
-
-.destacados-titulo {
-  color: #bdb6aa;
-  font-style: normal;
-  font-size: 16pt;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  text-transform: capitalize;
-  margin-top: 100px;
-  margin-bottom: 15px;
-  animation-name: efecto2;
-  animation-iteration-count: infinite;
-  animation-duration: 3s; }
-
-/* Animación - Transform: translate */
-@keyframes efecto2 {
-  0% {
-    transform: translateX(0); }
-  50% {
-    transform: translateX(-1em); }
-  100% {
-    transform: translateX(0.5em); } }
-
 /* Cuerpo de las secciones*/
 /*Inicio*/
 body {
@@ -60,17 +10,34 @@ body {
   background-attachment: fixed; }
 
 .lanzamientos-titulo {
-  font-weight: bold; }
+  color: #bdb6aa;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30pt;
+  margin-right: 20px;
+  font-weight: bold;
+  margin-bottom: 50px; }
 
 .producto-del-mes {
   margin-top: 100px; }
+
+#carouselExampleIndicators {
+  width: 100%; }
 
 .container-texto {
   margin-top: 50px;
   margin-bottom: 50px; }
 
-.container-texto__cuadrado-texto--h2 {
-  justify-content: center; }
+.container-texto__container--titulo {
+  color: #bdb6aa;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  justify-content: center;
+  font-size: 24pt;
+  margin-right: 20px; }
 
 .container-texto__cuadrado-texto {
   background-color: #fcb2bd;
@@ -86,21 +53,52 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 30px; }
+  margin-top: 20px; }
+
+.destacados-titulo {
+  color: #bdb6aa;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #bdb6aa;
+  font-style: normal;
+  font-size: 16pt;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 70px;
+  margin-bottom: 15px;
+  animation-name: efecto2;
+  animation-iteration-count: infinite;
+  animation-duration: 3s; }
+
+/* Animación - Transform: translate */
+@keyframes efecto2 {
+  0% {
+    transform: translateX(0); }
+  50% {
+    transform: translateX(-1em); }
+  100% {
+    transform: translateX(0.5em); } }
 
 .destacados-imagenes {
   margin: 10px; }
 
 /*Productos*/
-.productos-titulo {
-  margin-top: 50px;
+.container .productos-titulo {
+  color: #bdb6aa;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20pt;
+  margin-right: 20px;
+  margin-top: 100px;
   font-size: 26pt;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-left: 100px; }
 
 .tabla {
-  font-weight: normal;
-  font-size: 14pt;
-  font-family: "Open Sans", sans-serif;
   background-color: #fcb2bd;
   width: 80%;
   color: white;
@@ -109,14 +107,23 @@ body {
   padding: 5px;
   margin-left: 150px;
   margin-top: 20px;
-  line-height: 30px; }
+  line-height: 30px;
+  font-weight: normal;
+  font-size: 14pt;
+  font-family: "Open Sans", sans-serif; }
 
 /*Contacto*/
 .contacto-titulo {
+  color: #bdb6aa;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
   margin-top: 100px;
-  margin-left: 100px;
+  margin-left: 90px;
   font-size: 26pt;
-  font-weight: bold; }
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 20px; }
 
 .formulario-container {
   margin-bottom: 10px;
@@ -142,20 +149,38 @@ body {
   margin: 10x; }
 
 /*Galeria*/
+h3 {
+  color: #bdb6aa;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 16pt;
+  text-transform: capitalize;
+  margin-top: 100px;
+  margin-bottom: 15px; }
+
 .containerPrincipalGaleria {
   margin-top: 50px; }
 
 .galeria-titulo {
+  color: #bdb6aa;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 20px;
   margin-top: 100px;
   font-size: 26pt;
   font-weight: bold; }
 
-h2 p {
-  margin: 20px;
-  padding: 20px; }
-
 /*Preguntas Frecuentes*/
 .faq-titulo {
+  color: #bdb6aa;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 20px;
   font-size: 26pt;
   font-weight: bold; }
 
@@ -226,83 +251,36 @@ h2 p {
   flex-direction: row;
   justify-content: center; }
 
-/*GRID*/
-/* Sección Contacto */
-.formulario-container {
-  display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: minmax(100px, auto);
-  margin-bottom: 5px;
-  grid-gap: 1rem; }
-
-/* Sección Inicio */
-.containerInicio {
-  display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  grid-auto-rows: minmax(100px, auto);
-  grid-gap: 1rem; }
-
-/*Hijos*/
-.producto-del-mes {
-  grid-area: producto-del-mes;
-  justify-self: center; }
-
-.container-texto__cuadrado-texto {
-  grid-area: texto;
-  justify-self: center; }
-
-.destacados-container {
-  grid-area: destacados-imagenes;
-  justify-self: center; }
-
-.pie {
-  grid-area: footer;
-  justify-self: center; }
-
-/* Sección Productos*/
-.containerPrincipalProductos {
-  display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  grid-auto-rows: minmax(100px, auto);
-  margin-bottom: 5px;
-  grid-gap: 1rem; }
-
 /* RESPONSIVE */
 /* MOBILE */
 @media (max-width: 576px) {
   /* INICIO */
   .lanzamientos-titulos {
     margin-left: 10px;
+    margin-right: 35px;
     text-align: center;
     font-size: 26pt; }
   .container-texto__container--titulo {
     margin-top: 100px;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 240px;
     font-size: 24pt; }
   #carouselExampleIndicators {
     margin-right: 200px;
     margin-left: 0%;
     width: 300px; }
-  .containerInicio {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 10%;
-    margin-bottom: 5px;
-    grid-gap: 1rem; }
   .producto-del-mes {
     margin-top: 150px;
     margin-left: 130px; }
-  .container-texto {
-    margin-top: 10px;
-    margin-left: 25px; }
   .container-texto__cuadrado-texto {
-    width: 500px;
-    height: 270px;
-    font-size: 16pt; }
+    width: 400px;
+    height: 320px;
+    font-size: 16pt;
+    margin-top: 10px;
+    margin-left: 90px; }
   .destacados-titulo {
     font-size: 20pt;
-    margin-left: 200px; }
+    margin-left: 220px; }
   .destacados-container {
     margin-left: 200px; }
   .pie {
@@ -311,10 +289,10 @@ h2 p {
     height: 120px;
     margin-bottom: 0pt; }
   /* LISTA DE PRODUCTOS */
-  .productos-titulo {
+  .container .productos-titulo {
     margin-top: 120px;
-    margin-left: 170px;
-    font-size: 22pt; }
+    margin-left: 190px;
+    font-size: 21pt; }
   .tabla {
     width: 100%;
     margin-left: 120px;
@@ -324,10 +302,10 @@ h2 p {
   /* PREGUNTAS FRECUENTES */
   .faq-titulo {
     margin-top: 120px;
-    margin-left: 180px;
+    margin-left: 200px;
     font-size: 20pt; }
   .preguntas-container {
-    margin-left: 100px;
+    margin-left: 120px;
     width: 100%; }
   .preguntas-container__preguntasFrecuentes--pregunta {
     margin-bottom: 5px; }
@@ -336,21 +314,20 @@ h2 p {
   /* CONTACTO */
   .contacto-titulo {
     margin-top: 120px;
-    margin-left: 170px; }
+    margin-left: 190px; }
   .formulario-container {
     margin-left: 20px;
     margin-right: 500px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    width: 150%; }
   .formulario-container__formulario {
-    width: 130%; }
+    width: 100%; }
   /* GALERIA */
   .galeria-titulo {
-    margin-top: 150px;
-    margin-bottom: 10px;
+    margin-top: 100px;
     margin-left: 225px; }
   .containerPrincipalGaleria {
-    margin-top: 10px;
-    margin-right: 1px;
+    margin-top: 5px;
     margin-left: 30%;
     width: 100%; }
   .my-3 py-3 {
@@ -371,17 +348,13 @@ h2 p {
 /* TABLET */
 @media (min-width: 768px) and (max-width: 991px) {
   /* INICIO */
-  .containerInicio {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 10%;
-    margin-bottom: 5px;
-    grid-gap: 1rem; }
   .lanzamientos-titulos {
-    margin-left: 25px;
     font-size: 30pt; }
   .producto-del-mes {
-    margin-left: 200px; }
+    margin-left: 100px;
+    width: 100%; }
+  #carouselExampleIndicators {
+    margin-left: 30px; }
   .container-texto {
     margin-top: 100px;
     margin-left: 150px; }
@@ -391,7 +364,7 @@ h2 p {
     font-size: 24pt; }
   .container-texto__container--titulo {
     font-size: 28pt;
-    margin-left: 40px; }
+    margin-left: 100px; }
   .destacados-container {
     display: flex;
     flex-wrap: wrap;
@@ -406,16 +379,16 @@ h2 p {
     width: 100vh;
     height: 120px; }
   /*LISTA DE PRODUCTOS */
-  .productos-titulo {
+  .container .productos-titulo {
     margin-top: 100px;
-    margin-left: 230px;
+    margin-left: 280px;
     font-size: 30pt; }
   .tabla {
     width: 100%;
     margin-left: 120px; }
   /*PREGUNTAS FRECUENTES */
   .faq-titulo {
-    margin-left: 500px;
+    margin-left: 300px;
     font-size: 26pt; }
   .preguntas-container {
     margin-left: 170px;
@@ -428,14 +401,13 @@ h2 p {
     font-size: 20pt; }
   /* CONTACTO */
   .contacto-titulo {
-    margin-left: 250px; }
+    margin-left: 300px; }
   .formulario-container {
     margin-left: 200px;
     margin-top: 20px; }
   /* GALERIA */
   .galeria-titulo {
-    margin-left: 270px;
-    margin-bottom: 0px;
+    margin-left: 250px;
     font-size: 30pt; }
   .containerPrincipalGaleria {
     margin-top: 0px;

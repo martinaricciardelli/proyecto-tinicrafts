@@ -9,14 +9,15 @@ $tipografia: 'Open Sans', sans-serif;
     /* INICIO */
     .lanzamientos-titulos {
         margin-left: 10px;
+        margin-right: 35px;
         text-align: center;
         font-size: 26pt;
     }
-
+  
     .container-texto__container--titulo {
         margin-top: 100px;
         text-align: center;
-        margin-left: 150px; 
+        margin-left: 240px; 
         font-size: 24pt;
     }
     #carouselExampleIndicators {
@@ -25,35 +26,23 @@ $tipografia: 'Open Sans', sans-serif;
         width: 300px;
     }
     
-    .containerInicio {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        grid-template-rows: 10%;
-        margin-bottom: 5px;
-        grid-gap: 1rem;
-
-    }
     
     .producto-del-mes {
         margin-top: 150px;
         margin-left: 130px;
-        }
-    
-
-    .container-texto {
-        margin-top: 10px;
-        margin-left: 25px;
     }
 
     .container-texto__cuadrado-texto {
-        width: 500px;
-        height: 270px;    
+        width: 400px;
+        height: 320px;    
         font-size: 16pt;
+        margin-top: 10px;
+        margin-left: 90px;
     }
 
     .destacados-titulo {
         font-size: 20pt;
-        margin-left: 200px;
+        margin-left: 220px;
     }
     
 
@@ -61,6 +50,7 @@ $tipografia: 'Open Sans', sans-serif;
         margin-left: 200px;
 
     }
+    
 
     .pie {
         font-size: 18pt;
@@ -70,11 +60,14 @@ $tipografia: 'Open Sans', sans-serif;
     }
 
     /* LISTA DE PRODUCTOS */ 
-   .productos-titulo{
+    .container {
+        .productos-titulo{
             margin-top: 120px;
-            margin-left: 170px;
-            font-size: 22pt;
+            margin-left: 190px;
+    
+            font-size: 21pt;
         }
+    }
 
     .tabla {
         width: 100%;
@@ -89,12 +82,12 @@ $tipografia: 'Open Sans', sans-serif;
     /* PREGUNTAS FRECUENTES */
     .faq-titulo {
         margin-top: 120px;
-        margin-left: 180px;
+        margin-left: 200px;
         font-size: 20pt;
     }
 
     .preguntas-container {
-        margin-left: 100px;
+        margin-left: 120px;
         width: 100%;
     }
 
@@ -110,29 +103,28 @@ $tipografia: 'Open Sans', sans-serif;
     /* CONTACTO */
     .contacto-titulo {
         margin-top: 120px;
-        margin-left: 170px;
+        margin-left: 190px;
     }
 
     .formulario-container {
         margin-left: 20px;
         margin-right: 500px;
         margin-top: 20px;
+        width: 150%;
     }
 
     .formulario-container__formulario {
-        width: 130%;
+        width: 100%;
     }
 
     /* GALERIA */
     .galeria-titulo {
-        margin-top: 150px;
-        margin-bottom: 10px;
+        margin-top: 100px;
         margin-left: 225px;
     }
     
     .containerPrincipalGaleria {
-        margin-top: 10px;
-        margin-right: 1px;
+        margin-top: 5px;
         margin-left: 30%;
         width: 100%;
         
@@ -163,23 +155,18 @@ $tipografia: 'Open Sans', sans-serif;
 /* TABLET */
 @media (min-width: 768px) and (max-width: 991px) {
     /* INICIO */
-    .containerInicio {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        grid-template-rows: 10%;
-        margin-bottom: 5px;
-        grid-gap: 1rem;
-    
-    }
-
     .lanzamientos-titulos {
-        margin-left: 25px;
         font-size: 30pt;
     }
  
 
     .producto-del-mes {
-        margin-left: 200px;
+        margin-left: 100px;
+        width: 100%;
+    }
+
+    #carouselExampleIndicators {
+        margin-left: 30px;
     }
 
     .container-texto {
@@ -196,8 +183,9 @@ $tipografia: 'Open Sans', sans-serif;
 
     .container-texto__container--titulo {
         font-size: 28pt;
-        margin-left: 40px;
+        margin-left: 100px;
     }
+
     .destacados-container {
         display: flex;
         flex-wrap: wrap;
@@ -220,11 +208,13 @@ $tipografia: 'Open Sans', sans-serif;
     }
 
     /*LISTA DE PRODUCTOS */
-    .productos-titulo {
+    .container {
+        .productos-titulo {
             margin-top: 100px;
-            margin-left: 230px;
+            margin-left: 280px;
             font-size: 30pt;
         }
+    }
     
     .tabla {
         width: 100%;
@@ -233,7 +223,7 @@ $tipografia: 'Open Sans', sans-serif;
 
     /*PREGUNTAS FRECUENTES */
     .faq-titulo {
-        margin-left: 500px;
+        margin-left: 300px;
         font-size: 26pt;
     }
 
@@ -256,7 +246,7 @@ $tipografia: 'Open Sans', sans-serif;
 
     /* CONTACTO */
     .contacto-titulo {
-        margin-left: 250px;
+        margin-left: 300px;
     }
     .formulario-container {
         margin-left: 200px;
@@ -265,8 +255,7 @@ $tipografia: 'Open Sans', sans-serif;
 
     /* GALERIA */
     .galeria-titulo {
-        margin-left: 270px;
-        margin-bottom: 0px;
+        margin-left: 250px;
         font-size: 30pt;
     }
     .containerPrincipalGaleria {
