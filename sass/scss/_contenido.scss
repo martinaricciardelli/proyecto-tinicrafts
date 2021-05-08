@@ -14,13 +14,17 @@ $tipografia: 'Open Sans', sans-serif;
 /*Inicio*/
 body {
     background-image: url(../../imagenes/fondo-01.svg);
-    height: 100%;
+    height: 90%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+.body-faq {
+    background-image: url(../../imagenes/fondo-01.svg);
+    height: 50%;
+}
 .lanzamientos-titulo {
     @include titulos;
     text-transform: uppercase;
@@ -53,13 +57,14 @@ body {
 
 .container-texto__cuadrado-texto {
     background-color:$rosa;
+    border-radius: 10px;
     width: 500px;
     height: 45vh;
     color:white;
     font-size: 18pt;
     font-family: $tipografia;
     text-align: center;
-    margin: 5px;
+    margin-top: 10px;
 
 }
 
@@ -141,6 +146,7 @@ body {
     font-weight: normal;
     font-size: 14pt;
     font-family:$tipografia;
+    border-radius: 10px;
     
 
 }
@@ -173,6 +179,7 @@ body {
     font-family: $tipografia;
     padding: 10px;
     margin: 10px;
+    border-radius: 10px;
 
 }
 
