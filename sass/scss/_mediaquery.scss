@@ -7,88 +7,91 @@ $tipografia: 'Open Sans', sans-serif;
 /* MOBILE */
 @media (max-width: 576px) {
     /* INICIO */
-    .lanzamientos-titulos {
-        margin-left: 10px;
-        margin-right: 35px;
-        text-align: center;
-        font-size: 26pt;
+
+    .producto-del-mes {
+        h1 {
+            font-size: 18pt;
+            text-align: center;
+            width: 100%;
+        }
     }
-  
-    .container-texto__container--titulo {
-        margin-top: 100px;
-        text-align: center;
-        margin-left: 240px; 
-        font-size: 24pt;
-    }
+
+
     #carouselExampleIndicators {
-        margin-right: 200px;
-        margin-left: 0%;
-        width: 300px;
+        display: flex;
+        justify-content: center;
     }
-    
     
     .producto-del-mes {
-        margin-top: 150px;
-        margin-left: 130px;
+        margin-top: 100px;
+        width: 100%;
+
+    }
+
+    .container-texto__container--titulo {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 16pt;
     }
 
     .container-texto__cuadrado-texto {
-        width: 400px;
-        height: 320px;    
-        font-size: 16pt;
+        width: 310px;
+        height: 270px;    
+        font-size: 12pt;
         margin-top: 10px;
-        margin-left: 90px;
+        padding-top: 10px;
+
     }
 
     .destacados-titulo {
-        font-size: 20pt;
-        margin-left: 220px;
+        font-size: 16pt;
+        display: flex;
+        justify-content: center;
+
     }
     
 
     .destacados-container {
-        margin-left: 200px;
+        display: flex;
+        justify-content: center;
 
     }
     
-
-    .pie {
-        font-size: 18pt;
-        width: 100%;
-        height: 120px ;
-        margin-bottom: 0pt;
-    }
 
     /* LISTA DE PRODUCTOS */ 
     .container {
         .productos-titulo{
-            margin-top: 120px;
-            margin-left: 190px;
-    
-            font-size: 21pt;
+            margin-top: 120px;   
+            font-size: 18pt;
+            display: flex;
+            justify-content: center;
         }
     }
 
     .tabla {
         width: 100%;
-        margin-left: 120px;
         font-size: 12pt;
     }
     
-    .pie {
-        width: 90vh;
-    }
+
 
     /* PREGUNTAS FRECUENTES */
     .faq-titulo {
-        margin-top: 120px;
-        margin-left: 200px;
-        font-size: 20pt;
+        margin-top: 100px;
+        font-size: 18pt;
+        display: flex;
+        justify-content: center;
     }
 
     .preguntas-container {
-        margin-left: 120px;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .preguntas-container__preguntasFrecuentes {
+        font-size: 12pt;
     }
 
     .preguntas-container__preguntasFrecuentes--pregunta {
@@ -101,14 +104,16 @@ $tipografia: 'Open Sans', sans-serif;
     }
 
     /* CONTACTO */
+
     .contacto-titulo {
-        margin-top: 120px;
-        margin-left: 190px;
+        width: 150%;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+ 
     }
 
     .formulario-container {
-        margin-left: 20px;
-        margin-right: 500px;
         margin-top: 20px;
         width: 150%;
     }
@@ -117,15 +122,14 @@ $tipografia: 'Open Sans', sans-serif;
         width: 100%;
     }
 
+
     /* GALERIA */
+
     .galeria-titulo {
-        margin-top: 100px;
-        margin-left: 225px;
+        margin-bottom: 50px;
     }
-    
     .containerPrincipalGaleria {
         margin-top: 5px;
-        margin-left: 30%;
         width: 100%;
         
     }
@@ -139,97 +143,127 @@ $tipografia: 'Open Sans', sans-serif;
     .container-error {
         background-image: url(../../imagenes/error2.jpg);
         width: 100%;
-        height: 600px;
+        height: 620px;
+    }
+
+    .container-error {
+        header {
+            width: 15%;
+            img {
+                width: 100%;
+        }
+    }
+    }
+
+    .error404 {
+        font-size: 16pt;
     }
     .texto-error {
-        width: 2000px;
+        width: 70%;
         height: 200px;
-        margin-left: 0px;
-        margin-right: 80px;
         margin-top: 150px;
-        font-size: 8pt;
+        font-size: 10pt;
+        display: flex;
+        justify-content: center;
+
     }
     
 }
 
+/* FOOTER */
+.pie {
+    width: 100%;
+    font-size: 50pt;
+    
+    }
+
+
 /* TABLET */
 @media (min-width: 768px) and (max-width: 991px) {
-    /* INICIO */
-    .lanzamientos-titulos {
-        font-size: 30pt;
+    /* INICIO */  
+    
+    .producto-del-mes {
+        h1 {
+            font-size: 34pt;
+            margin-top: 150px;
+        }
     }
  
 
     .producto-del-mes {
-        margin-left: 100px;
         width: 100%;
     }
 
     #carouselExampleIndicators {
-        margin-left: 30px;
+        display: flex;
+        justify-content: center;
     }
 
     .container-texto {
         margin-top: 100px;
-        margin-left: 150px;
+
     }
 
     .container-texto__cuadrado-texto {
         width: 700px;
         height: 400px;
-        font-size: 24pt;
-    
-}
+        font-size: 24pt;    
+    }
 
     .container-texto__container--titulo {
         font-size: 28pt;
-        margin-left: 100px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
     }
 
     .destacados-container {
         display: flex;
         flex-wrap: wrap;
         margin-top: 50px;
-        margin-left: 200px;
+        margin-bottom: 100px;
     }
     
 
     .destacados-titulo {
       font-size: 24pt;
-      margin-left: 200px;
+      display: flex;
+      justify-content: center;
     }
 
-    .pie {
-        font-size: 20pt;
-        text-align: center;
-        width: 100vh;
-        height: 120px ;
-    
-    }
 
     /*LISTA DE PRODUCTOS */
     .container {
         .productos-titulo {
-            margin-top: 100px;
-            margin-left: 280px;
+            margin-top: 120px;
             font-size: 30pt;
+            display: flex;
+            justify-content: center;
         }
     }
     
     .tabla {
+        .container-fluid {
         width: 100%;
-        margin-left: 120px;
+        display: flex;
+        justify-content: center;
     }
+}
 
     /*PREGUNTAS FRECUENTES */
     .faq-titulo {
-        margin-left: 300px;
         font-size: 26pt;
+        display: flex;
+        justify-content: center;
+        margin-top: 120px;
+        margin-bottom: 30px;
     }
 
     .preguntas-container {
-        margin-left: 170px;
-        width: 100%;
+        width:100%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
     }
 
     .preguntas-container__preguntasFrecuentes--pregunta {
@@ -246,21 +280,24 @@ $tipografia: 'Open Sans', sans-serif;
 
     /* CONTACTO */
     .contacto-titulo {
-        margin-left: 300px;
+        margin-top: 120px;
     }
+
     .formulario-container {
-        margin-left: 200px;
+        width: 100%;
         margin-top: 20px;
+        display: flex;
+        justify-content: center;
+
     }
 
     /* GALERIA */
     .galeria-titulo {
-        margin-left: 250px;
         font-size: 30pt;
+        margin-top: 120px;
     }
     .containerPrincipalGaleria {
         margin-top: 0px;
-        margin-left: 120px;
         width: 100%;
     }
 
@@ -276,20 +313,33 @@ $tipografia: 'Open Sans', sans-serif;
     }
 
 
-
-
     /*ERROR 404*/
     .container-error {
         background-image: url(../../imagenes/error2.jpg);
         width: 100%;
         height: 1000px;
-    }
+    
     .texto-error {
-        width: 100%;
+        width: 70%;
         height: 350px;
-        margin-right: 250px;
         margin-top: 250px;
+        display: flex;
+        justify-content: center;
     }
+}
+
+}
+
+/*FOOTER */
+.pie {
+    height: 60px;
+    width: 100%;
+    font-size: 12pt;
+}
+
+.container-iconos {
+    display: flex;
+    justify-content: start;
 
 }
 
@@ -300,22 +350,11 @@ $tipografia: 'Open Sans', sans-serif;
 
     /* INICIO */
 
-   .containerInicio {
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-auto-rows: 100%;
-    margin-bottom: 5px;
-    grid-gap: 1rem;
-}
 
 .producto-del-mes {
     margin-top: 100px;
 }
 
-.container-texto__cuadrado-texto {
-    margin-left: 33%;
-
-}
 
 /* PRODUCTOS */
 .containerPrincipalProductos {
@@ -327,11 +366,6 @@ $tipografia: 'Open Sans', sans-serif;
 
 }
 
-
-/* ERROR 404 */
-.texto-error {
-    margin-left: 350px;
-}
 
 
 }
