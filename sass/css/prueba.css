@@ -7,7 +7,8 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  overflow-x: hidden; }
 
 .body-faq {
   background-image: url(../../imagenes/fondo-01.svg);
@@ -26,14 +27,16 @@ body {
   justify-content: center; }
 
 .producto-del-mes {
-  margin-top: 100px; }
+  margin-top: 100px;
+  width: 100%; }
 
 #carouselExampleIndicators {
   width: 100%; }
 
 .container-texto {
   margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  width: 100%; }
 
 .container-texto__container--titulo {
   color: #bdb6aa;
@@ -47,13 +50,14 @@ body {
 .container-texto__cuadrado-texto {
   background-color: #fcb2bd;
   border-radius: 10px;
-  width: 500px;
+  width: 520px;
   height: 45vh;
   color: white;
   font-size: 18pt;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  margin-top: 10px; }
+  margin-top: 10px;
+  padding-top: 15px; }
 
 .destacados-container {
   display: flex;
@@ -224,14 +228,12 @@ h3 {
 .container-error {
   background-image: url(../../imagenes/error2.jpg);
   width: 100%;
-  height: 700px;
-  display: flex;
-  justify-content: end; }
+  height: 700px; }
 
-.texto-error {
+.container-error .texto-error {
   background-color: #dbd4c6;
-  width: 600px;
-  height: 300px;
+  width: 100%;
+  height: 250px;
   border: white solid;
   margin-top: 15%;
   font-family: "Open Sans", sans-serif;
@@ -323,15 +325,18 @@ h3 {
     margin-bottom: 15px; }
   /* CONTACTO */
   .contacto-titulo {
-    width: 150%;
+    width: 130%;
     margin-top: 100px;
     display: flex;
     justify-content: center; }
   .formulario-container {
     margin-top: 20px;
-    width: 150%; }
+    width: 135%;
+    display: flex;
+    justify-content: center; }
   .formulario-container__formulario {
-    width: 100%; }
+    width: 450px;
+    height: 650px; }
   /* GALERIA */
   .galeria-titulo {
     margin-bottom: 50px; }
@@ -367,6 +372,8 @@ h3 {
 /* TABLET */
 @media (min-width: 768px) and (max-width: 991px) {
   /* INICIO */
+  body {
+    overflow-x: hidden; }
   .producto-del-mes h1 {
     font-size: 34pt;
     margin-top: 150px; }
@@ -376,7 +383,8 @@ h3 {
     display: flex;
     justify-content: center; }
   .container-texto {
-    margin-top: 100px; }
+    margin-top: 100px;
+    width: 100%; }
   .container-texto__cuadrado-texto {
     width: 700px;
     height: 400px;
@@ -458,7 +466,7 @@ h3 {
 .pie {
   height: 60px;
   width: 100%;
-  font-size: 12pt; }
+  font-size: 10pt; }
 
 .container-iconos {
   display: flex;

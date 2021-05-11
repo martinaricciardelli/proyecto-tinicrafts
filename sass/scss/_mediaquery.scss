@@ -106,20 +106,24 @@ $tipografia: 'Open Sans', sans-serif;
     /* CONTACTO */
 
     .contacto-titulo {
-        width: 150%;
+        width: 130%;
         margin-top: 100px;
         display: flex;
         justify-content: center;
- 
+  
     }
 
     .formulario-container {
         margin-top: 20px;
-        width: 150%;
+        width: 135%;
+    
+        display: flex;
+        justify-content: center;
     }
 
     .formulario-container__formulario {
-        width: 100%;
+        width: 450px;
+        height: 650px;
     }
 
 
@@ -181,6 +185,10 @@ $tipografia: 'Open Sans', sans-serif;
 /* TABLET */
 @media (min-width: 768px) and (max-width: 991px) {
     /* INICIO */  
+
+    body {
+        overflow-x: hidden;
+    }
     
     .producto-del-mes {
         h1 {
@@ -194,13 +202,16 @@ $tipografia: 'Open Sans', sans-serif;
         width: 100%;
     }
 
+
     #carouselExampleIndicators {
         display: flex;
         justify-content: center;
+    
     }
 
     .container-texto {
         margin-top: 100px;
+        width: 100%;
 
     }
 
@@ -222,6 +233,7 @@ $tipografia: 'Open Sans', sans-serif;
         flex-wrap: wrap;
         margin-top: 50px;
         margin-bottom: 100px;
+ 
     }
     
 
@@ -291,6 +303,8 @@ $tipografia: 'Open Sans', sans-serif;
 
     }
 
+   
+
     /* GALERIA */
     .galeria-titulo {
         font-size: 30pt;
@@ -334,7 +348,7 @@ $tipografia: 'Open Sans', sans-serif;
 .pie {
     height: 60px;
     width: 100%;
-    font-size: 12pt;
+    font-size: 10pt;
 }
 
 .container-iconos {

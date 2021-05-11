@@ -19,6 +19,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 .body-faq {
@@ -33,10 +34,12 @@ body {
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
+    
 }
 
 .producto-del-mes {
     margin-top: 100px;
+    width: 100%;
 }
 
 #carouselExampleIndicators {
@@ -46,6 +49,7 @@ body {
 .container-texto {
     margin-top: 50px;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 .container-texto__container--titulo {
@@ -58,13 +62,14 @@ body {
 .container-texto__cuadrado-texto {
     background-color:$rosa;
     border-radius: 10px;
-    width: 500px;
+    width: 520px;
     height: 45vh;
     color:white;
     font-size: 18pt;
     font-family: $tipografia;
     text-align: center;
     margin-top: 10px;
+    padding-top: 15px;
 
 
 }
@@ -74,7 +79,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
-    margin-bottom: 100px
+    margin-bottom: 100px;
 }
 
 .destacados-titulo {
@@ -277,23 +282,24 @@ h3 {
     background-image: url(../../imagenes/error2.jpg) ;
     width: 100%;
     height: 700px;
-    display: flex;
-    justify-content: end;
 }
 
-.texto-error {
-    background-color: #dbd4c6;
-    width: 600px;
-    height: 300px;  
-    border: white solid;
-    margin-top: 15%;
-    font-family: "Open Sans", sans-serif;
-    font-size: 18pt;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+.container-error {
+        .texto-error {
+            background-color: #dbd4c6;
+            width: 100%;
+            height: 250px;  
+            border: white solid;
+            margin-top: 15%;
+            font-family: "Open Sans", sans-serif;
+            font-size: 18pt;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+       ;
+        }
 
 }
 
