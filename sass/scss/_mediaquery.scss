@@ -110,6 +110,7 @@ $tipografia: 'Open Sans', sans-serif;
         margin-top: 100px;
         display: flex;
         justify-content: center;
+        font-size: 18pt;
   
     }
 
@@ -131,6 +132,7 @@ $tipografia: 'Open Sans', sans-serif;
 
     .galeria-titulo {
         margin-bottom: 50px;
+        font-size: 18pt;
     }
     .containerPrincipalGaleria {
         margin-top: 5px;
@@ -192,7 +194,7 @@ $tipografia: 'Open Sans', sans-serif;
     
     .producto-del-mes {
         h1 {
-            font-size: 34pt;
+            font-size: 30pt;
             margin-top: 150px;
         }
     }
@@ -216,16 +218,17 @@ $tipografia: 'Open Sans', sans-serif;
     }
 
     .container-texto__cuadrado-texto {
-        width: 700px;
+        width: 510px;
         height: 400px;
-        font-size: 24pt;    
+        font-size: 20pt;    
+
     }
 
     .container-texto__container--titulo {
         font-size: 28pt;
         display: flex;
         justify-content: center;
-        margin-bottom: 40px;
+
     }
 
     .destacados-container {
@@ -276,16 +279,17 @@ $tipografia: 'Open Sans', sans-serif;
         height: 90%;
         display: flex;
         justify-content: center;
+        margin-bottom: 20px;
     }
 
     .preguntas-container__preguntasFrecuentes--pregunta {
         margin-bottom: 10px;
-        font-size: 20pt;
+        font-size: 16pt;
     }
 
     .preguntas-container__preguntasFrecuentes--respuesta {
         margin-bottom: 20px;
-        font-size: 20pt;
+        font-size: 16pt;
 
     }
 
@@ -293,6 +297,7 @@ $tipografia: 'Open Sans', sans-serif;
     /* CONTACTO */
     .contacto-titulo {
         margin-top: 120px;
+        font-size: 30pt;
     }
 
     .formulario-container {
@@ -300,6 +305,7 @@ $tipografia: 'Open Sans', sans-serif;
         margin-top: 20px;
         display: flex;
         justify-content: center;
+   
 
     }
 
