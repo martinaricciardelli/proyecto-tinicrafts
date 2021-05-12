@@ -1,3 +1,4 @@
+/* DESKTOP */
 $rosa:#fcb2bd;
 $marron: rgb(189, 182, 170);
 $tipografia: 'Open Sans', sans-serif;
@@ -11,8 +12,9 @@ $tipografia: 'Open Sans', sans-serif;
 
 /* Cuerpo de las secciones*/
 
+
 /*Inicio*/
-body {
+.fondo {
     background-image: url(../../imagenes/fondo-01.svg);
     height: 90%;
     background-size: cover;
@@ -84,11 +86,7 @@ body {
 
 .destacados-titulo {
     @include titulos;
-    color: $marron;
-    font-style: normal;
     font-size: 18pt;
-    font-family: $tipografia;
-    text-align: center;
     text-transform: capitalize;
     margin-top: 70px;
     margin-bottom: 15px;
@@ -125,6 +123,7 @@ body {
 
 
 /*Productos*/
+
 
 .container {
     .productos-titulo {
