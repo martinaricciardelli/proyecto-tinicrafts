@@ -269,7 +269,7 @@ h3 {
   color: white;
   font-weight: normal;
   font-family: "Open Sans", sans-serif;
-  font-size: 12pt;
+  font-size: 10pt;
   margin-top: 50px;
   padding-top: 15px;
   padding-bottom: 5px;
@@ -360,6 +360,8 @@ h3 {
     width: 100%; }
   .my-3 py-3 {
     width: 100%; }
+  .display-5 {
+    font-size: 16pt; }
   /* ERROR 404 */
   .container-error {
     background-image: url(../../imagenes/error2.jpg);
@@ -494,8 +496,3 @@ h3 {
 .container-iconos {
   display: flex;
   justify-content: start; }
-
-/* Desktop */
-@media (min-width: 992px) {
-  /* INICIO */
-  /* PRODUCTOS */ }
