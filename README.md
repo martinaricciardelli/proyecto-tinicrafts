@@ -1,2 +1,2 @@
-# proyecto-tinicrafts
+Proyecto Tinicrafts
 Primer proyecto realizado con HTML y CSS. Sitio web de presentación del emprendimiento Tini Crafts.
